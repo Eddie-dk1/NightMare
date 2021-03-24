@@ -27,7 +27,7 @@ module.exports.run = async (bot,message,args) => {
     .addField("..warn", "Выдать варн")
     .addField("..info", "Информация")
     .addField("..vmhelp","Информация по модулю VimeApi(В Разработке)")
-    .setFooter("By Guka | NightMare" ,"bot.user.avatar.URL")
+    .setFooter("By Guka | NightMare", bot.user.avatar.URL)
     bot.send(embed);
 
 };
